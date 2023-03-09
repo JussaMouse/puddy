@@ -25,7 +25,9 @@ hex
 
 once you have pasted all the colors you want to save into import.txt,
 use the following command in the terminal:
-$ node import.mjs
+
+```$ node import.mjs```
+
 this should prompt you for the location of your allP.json
 (the database of all your palettes).
 
@@ -40,4 +42,41 @@ for all your palettes, to browse.
 
 obviously a million and one features need to be added. even what i've
 outlined above isn't 100% finished, but this is my
-plan for how to organise the app
+plan for how to organise the app.
+
+the syntax of the database JSON file (allP.json) is:
+
+```
+{
+"duskTillDawn": {
+    "description": "Dusk Till Dawn",
+    "rgb": [
+      [25, 27, 13],
+      ...
+    ],
+    "hsb": [
+      [69, 52, 11],
+      ...
+    ],
+    "hex": [
+      "#191b0d",
+      ...
+    ]
+  },
+  "eyeWideShut": {
+    "description": "Eyes Wide Shut",
+    "rgb": [
+      [33, 24, 70],
+      ...
+    ],
+    "hsb": [
+      [252, 66, 27],
+      ...
+    ],
+    "hex": [
+      "#211846",
+      ...
+    ]
+  }
+}
+```
