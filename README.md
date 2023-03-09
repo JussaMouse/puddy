@@ -70,7 +70,7 @@ the syntax of the database JSON file (allP.json) is:
       ...
     ]
   },
-  "eyeWideShut": {
+"eyeWideShut": {
     "description": "Eyes Wide Shut",
     "rgb": [
       [33, 24, 70],
