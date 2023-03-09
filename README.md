@@ -4,6 +4,7 @@ below that list the comma separated values in brackets, one per line
 or, if hex, list the strings in quotes, one per line
 
 example import.txt below:
+```
 coolPalette
 rgb
 [255,0,0]
@@ -18,6 +19,7 @@ hex
 '#00ff00'
 '#0000ff'
 ...
+```
 
 once you have pasted all the colors you want to save into import.txt,
 use the following command in the terminal:
