@@ -1,3 +1,8 @@
+puddy is a system for organizing, converting and displaying 
+color palettes using rgb, hsb (hsv), and hex. first, import current palettes
+to your database with import, then view your collection with index.html
+
+1.
 create an import.txt and put the palette name on the first line
 put the color type on the second line: rgb, hsb or hex
 below that list the comma separated values in brackets, one per line
@@ -23,6 +28,7 @@ hex
 ...
 ```
 
+2.
 once you have pasted all the colors you want to save into import.txt,
 use the following command in the terminal:
 
@@ -36,6 +42,7 @@ the import script will add that palette to the database object in
 allP.json, and also automatically convert the colors to the
 other 2 types and add those to the database object, too.
 
+3.
 once finished importing, you can open index.html with Live Server vscode extension,
 or your web server of choice. it should load index.js and show grids and names
 for all your palettes, to browse.
