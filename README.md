@@ -11,8 +11,10 @@ rgb
 [0,255,0]
 [0,0,255]
 ...
+```
 
 another example import.txt below:
+```
 coolPalette
 hex
 '#ff0000'
