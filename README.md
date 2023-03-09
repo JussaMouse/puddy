@@ -23,11 +23,17 @@ once you have pasted all the colors you want to save into import.txt,
 use the following command in the terminal:
 $ node import.mjs
 this should prompt you for the location of your allP.json
-(the database of all your palettes)
+(the database of all your palettes).
+
+the idea is that, whichever of the 3 color types you are importing,
+the import script will add that palette to the database object in
+allP.json, and also automatically convert the colors to the
+other 2 types and add those to the database object, too.
 
 once finished importing, you can open index.html with Live Server vscode extension,
 or your web server of choice. it should load index.js and show grids and names
 for all your palettes, to browse.
 
-obviously a million and one features need to be added, but this is my
-skeleton for how to organise the app
+obviously a million and one features need to be added. even what i've
+outlined above isn't 100% finished, but this is my
+plan for how to organise the app
